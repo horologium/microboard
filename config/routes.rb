@@ -1,7 +1,7 @@
 Microboard::Application.routes.draw do
   resources :posts
 
-	root	'application#index'
+	root	posts
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
